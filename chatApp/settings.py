@@ -25,11 +25,10 @@ SECRET_KEY = '6u*h^$w1ielwjw%797zzr8**hmbh@!_mc(f7p@qh6x$e69zufy'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True  # Will Turn  False when ready for deployment
 
-ALLOWED_HOSTS = ['https://ahmishra.pythonanywhere.com/',
-                 'localhost',   "127.0.0.1"]
+ALLOWED_HOSTS = []
 
 
-# Application definition
+# Application definition 'markdown_deux',
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -38,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'markdown_deux',
+    
     'chat',
     'accounts',
 ]
